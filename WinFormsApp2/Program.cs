@@ -9,6 +9,7 @@ namespace WinFormsApp2
         [STAThread]
         static void Main()
         {
+            int a = 5;
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
             
